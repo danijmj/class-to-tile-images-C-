@@ -13,6 +13,8 @@ Inizialize the constuctor (OSTileGenerator) passing the next data:
  - (int) tileSize = 256 // The size of the tile (default 256)
  - (int) overlap = 0 // The overlap of the image, usually 0
 
+Call to the GenerateTiles() function
+
 ## Result
 Generate a folder with the JSONP and DZI files and the folder with the tiles (in deep) into the main folder in jpg format.
 
