@@ -2,11 +2,10 @@
 using OpenSeaDragon;
 
 string urlImage = "./pexels-mile-ribeiro-6930033-6497794.jpg";
-OSTileGenerator opSDragonTilGen = new(urlImage);
 try
 {
-    // Generamos el teselado de las imágenes del OpenSeaDragon
-    opSDragonTilGen.GenerateTiles();
+    // We generate the tiles for OpenSeaDragon
+    OSDTileGenerator.GenerateTiles(urlImage);
     Console.WriteLine("Image tiles generated successfully");
 }
 catch (Exception e)
